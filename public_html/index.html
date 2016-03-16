@@ -6,11 +6,227 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>A Study of Semantic - UI</title>
+
+        <!-- Semantic UI Core css-->
+        <link href="css/semantic.min.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+
+
     </head>
+
+
     <body>
-        <div>TODO write content</div>
+
+        <header class="ui container centered" style="margin: 2rem">
+            <div class="ui segment">
+
+                <h1>Hello Semantic UI</h1>
+                This is a simple site to be used as a study of semantic ui for use in current and future works.
+            </div>
+        </header>
+        <!-- A Simple Grid -->
+        <div id="grid-examples" class="ui container" >
+
+            <h2 class="ui centered header"> A Simple Grid</h2>
+            <div class="ui divider"></div>
+            <div class="ui grid">
+                <div class="four wide column">four wide column</div>
+                <div class="four wide column">four wide column</div>
+                <div class="four wide column">four wide column</div>
+                <div class="four wide column">four wide column</div>
+            </div>
+
+            <div class="ui divider"></div>
+
+            <h2 class="ui centered header"> A Simple Grid with Rows</h2>
+            <div class="ui divider"></div>  
+            <div class="ui four column grid">
+                <div class="row olive">
+                    <div class="column">first column in first row</div>
+                    <div class="column">first column in first row</div>
+                    <div class="column">first column in first row</div>
+                </div>
+                <div class="column brown">column not in row</div>
+                <div class="column red">column not in row</div>
+                <div class="column orange">column not in row</div>
+                <div class="column teal">column not in row</div>
+            </div>
+
+            <h2 class="ui centered header">Stackable grid</h2>
+            <div class="ui stackable four column grid">
+                <div class="column">
+                    <div class="ui card centered">
+                        <div class="image">
+                            <img src="https://robohash.org/SheldonRobot"/>
+                        </div>
+                        <div class="content">
+                            <a class="header">Sheldon Robot</a>
+                            <div class="meta">
+                                <span class="date">Conjoined 2016</span>
+                            </div>
+                            <div class="description">
+                                leberkas tail beef ribs cow picanha. Ham hock flank ham, brisket biltong salami pork loin alcatra rump jowl short loin sausage tail.
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <a>
+                                <i class="user icon"></i>
+                                22 Frenemies
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui card centered">
+                        <div class="image">
+                            <img src="https://robohash.org/CatherineRobot"/>
+                        </div>
+                        <div class="content">
+                            <a class="header">CatherineRobot</a>
+                            <div class="meta">
+                                <span class="date">Conjoined 2016</span>
+                            </div>
+                            <div class="description">
+                                Shankle prosciutto ham, landjaeger short ribs drumstick beef ribs pastrami pork chop chuck andouille cupim picanha ham hock. 
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <a>
+                                <i class="user icon"></i>
+                                22 Frenemies
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui card centered">
+                        <div class="image">
+                            <img src="https://robohash.org/Paige"/>
+                        </div>
+                        <div class="content">
+                            <a class="header">Paige Robot</a>
+                            <div class="meta">
+                                <span class="date">Conjoined 2016</span>
+                            </div>
+                            <div class="description">
+                                Filet mignon ground round leberkas, spare ribs turkey beef short loin porchetta chicken frankfurter pig pork loin.
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <a>
+                                <i class="user icon"></i>
+                                22 Frenemies
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui card centered">
+                        <div class="image">
+                            <img src="https://robohash.org/Pepper"/>
+                        </div>
+                        <div class="content">
+                            <a class="header">Pepper Robot</a>
+                            <div class="meta">
+                                <span class="date">Conjoined 2016</span>
+                            </div>
+                            <div class="description">
+                                Tenderloin bacon ham short loin, jowl swine biltong shank shankle sirloin.
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <a>
+                                <i class="user icon"></i>
+                                22 Frenemies
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <h2 class="ui centered header">Doubling grid</h2>
+            <div class="ui grid">
+                <div class="doubling eight column row">
+                    <div class="column">doubling eight column</div>
+                    <div class="column">doubling eight column</div>
+                    <div class="column">doubling eight column</div>
+                    <div class="column">doubling eight column</div>
+                    <div class="column">doubling eight column</div>
+                    <div class="column">doubling eight column</div>
+                    <div class="column">doubling eight column</div>
+                    <div class="column">doubling eight column</div>
+                </div>
+                <div class="doubling six column row">
+                    <div class="column">doubling six column </div>
+                    <div class="column">doubling six column </div>
+                    <div class="column">doubling six column </div>
+                    <div class="column">doubling six column </div>
+                    <div class="column">doubling six column </div>
+                    <div class="column">doubling six column </div>
+                </div>
+                <div class="doubling four column row">
+                    <div class="column">doubling four column </div>
+                    <div class="column">doubling four column </div>
+                    <div class="column">doubling four column </div>
+                    <div class="column">doubling four column </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="ui segment">
+            <div class="ui left rail">
+                <div class="ui segment">
+                    Left Rail Content
+                </div>
+            </div>
+            <div class="ui card centered">
+                <div class="image">
+                    <img src="img/moncat.jpg"/>
+                </div>
+                <div class="content">
+                    <a class="header">Monkey Cat</a>
+                    <div class="meta">
+                        <span class="date">Conjoined 2016</span>
+                    </div>
+                    <div class="description">
+                        Monkey Cat is the combination of a Monkey and a Cat that retains its stubborn cat nature and loses its love for bananas.
+                    </div>
+                </div>
+                <div class="extra content">
+                    <a>
+                        <i class="user icon"></i>
+                        22 Frenemies
+                    </a>
+                </div>
+            </div>
+
+
+
+
+            <div class="ui right rail">
+                <div class="ui segment">
+                    Right Rail Content
+                </div>
+            </div>
+            <p></p>
+            <p></p>
+        </div>
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
     </body>
 </html>
